@@ -149,7 +149,7 @@ function applyImageModifications(imageSrc) {
     const modifiedImageElement = document.createElement('img');
     modifiedImageElement.src = canvas.toDataURL();
     const modifiedImageContainer = document.querySelector('.column:nth-child(2)');
-//     modifiedImageContainer.innerHTML = '<h2>Modified Image</h2>';
+    // modifiedImageContainer.innerHTML = '<h2>Modified Image</h2>';
     modifiedImageContainer.appendChild(modifiedImageElement);
   };
 
